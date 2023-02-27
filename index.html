@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Pagination</title>
+  </head>
+  <body>
+    <section class="pagination">
+      <div class="container">
+        <div class="row_postbtn">
+          <button style="--clr: #8a2be2" class="postbtn" type="button" id="btn">
+            <span>Get Post</span><i></i>
+          </button>
+        </div>
+        <div class="loader-container">
+          <div class="spinner"></div>
+        </div>
+      
+          <div class="card_plhold" id="cardDiv"> </div>
+
+        </div>
+      </div>
+    </section>
+    <div class="popup modal">
+      <div class="popup_body">
+        <div class="popup_content content">
+          <p class="popup_close">&times;</p>
+          <div class="popup_card">
+            <div class="popup_card_imag"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="listingTable">
+      <span class="page"></span>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./JS/app.js"></script>
+  </body>
+</html>
